@@ -75,3 +75,13 @@
     position:relative;
     cursor: pointer;
 }
+.donate-btn-middle:hover{
+    border: 1px solid #36b8f4;
+    background: #36b8f4;
+    transition: 0.5s;
+}
+
+@media(max-width:700px){
+    .text-box h1{
+        font-size:20px;
+}
