@@ -112,9 +112,68 @@ p{
     margin-bottom:5%;
     padding:20px 12px;
     box-sizing: border-box;
+    transition:0.5;
 }
 .h3{
     text-align:center;
     font-weight:600;
     margin: 10px 0;
+}
+.about-goals:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*why it matters*/
+
+.whysa{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.whysacol{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position:relative;
+    overflow:hidden;
+}
+.whysacol img{
+    width: 100%;
+}
+
+/*donate*/
+.donate{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.proceedtodonate{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size:16px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.proceedtodonate:hover{
+    border: 1px solid #36b8f4;
+    background: #36b8f4;
+    transition: 0.5s;
+}
+
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/field2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
 }
